@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2015",
+    "module": "commonjs",
+    "baseUrl": "./src",
+    "paths": {
+      "styled/*": ["./*"]
+    },
+    "jsx": "react",
+    "strict": true,
+    "esModuleInterop": true
+  }
+}
