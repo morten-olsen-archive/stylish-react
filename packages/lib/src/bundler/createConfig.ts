@@ -43,6 +43,7 @@ export default ({
   output: {
     path: output,
     filename: 'bundle.js',
+    publicPath: '.',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.jsx', '.js'],

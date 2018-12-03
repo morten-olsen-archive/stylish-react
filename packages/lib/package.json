@@ -4,7 +4,8 @@
   "main": "src/",
   "license": "MIT",
   "scripts": {
-    "demo": "ts-node src/cli run ../demo"
+    "demo": "ts-node src/cli run ../demo",
+    "build:docs": "ts-node src/cli build ../demo --output ../docs"
   },
   "devDependencies": {
     "@types/express": "^4.16.0",
